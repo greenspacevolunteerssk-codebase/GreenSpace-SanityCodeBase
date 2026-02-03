@@ -36,5 +36,11 @@ export default defineType({
         type: 'string',
         validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
+    defineField({
+        name: 'submittedAt',   // The unique key for this field
+        title: 'Submitted At',
+        type: 'datetime',
+        validation: (Rule) => Rule.required(), // Makes this field mandatory
+    }), 
  ],
 });
