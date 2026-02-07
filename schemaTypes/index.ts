@@ -6,4 +6,7 @@ import Trustees from './Trustees';
 import HeaderDetails from './HeaderDetails';
 import FooterDetails from './FooterDetails';
 import VolunteersData from './VolunteersData';
-export const schemaTypes = [HomeAuth, Timeline, GalleryImage, UpcomingEvents, Trustees, HeaderDetails, FooterDetails, VolunteersData];
+import SponsorDetails from './SponsorDetails';
+import SpecialSponsor from './SpecialSponsor';
+
+export const schemaTypes = [HomeAuth, Timeline, GalleryImage,SponsorDetails, SpecialSponsor,UpcomingEvents, Trustees, HeaderDetails, FooterDetails, VolunteersData];

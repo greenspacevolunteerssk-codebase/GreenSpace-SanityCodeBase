@@ -36,8 +36,8 @@ export default defineType({
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
      defineField({
-      name: 'MainPage_Native_trees_planted',   // The unique key for this field
-      title: 'Main Page Native trees planted',
+      name: 'MainPage_Hours_of_Work',   // The unique key for this field
+      title: 'Main Page Hours of Work',
       type: 'number',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
