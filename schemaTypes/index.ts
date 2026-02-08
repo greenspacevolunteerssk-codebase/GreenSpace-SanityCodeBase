@@ -8,5 +8,6 @@ import FooterDetails from './FooterDetails';
 import VolunteersData from './VolunteersData';
 import SponsorDetails from './SponsorDetails';
 import SpecialSponsor from './SpecialSponsor';
+import WorkShopDetails from './WorkShopDetails';
 
-export const schemaTypes = [HomeAuth, Timeline, GalleryImage,SponsorDetails, SpecialSponsor,UpcomingEvents, Trustees, HeaderDetails, FooterDetails, VolunteersData];
+export const schemaTypes = [HomeAuth, Timeline, GalleryImage,SponsorDetails,WorkShopDetails, SpecialSponsor,UpcomingEvents, Trustees, HeaderDetails, FooterDetails, VolunteersData];
