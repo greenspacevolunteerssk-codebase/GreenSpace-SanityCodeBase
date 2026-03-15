@@ -11,7 +11,7 @@ export default defineType({
       type: 'string',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
-     defineField({
+    defineField({
       name: 'MainPage_Color',   // The unique key for this field
       title: 'Main Page Color',
       type: 'string',
@@ -29,21 +29,39 @@ export default defineType({
       type: 'image',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
-     defineField({
-      name: 'MainPage_Bags_Of_Litter_Removed',   // The unique key for this field
-      title: 'Main Page Bags Of Litter Removed',
+    defineField({
+      name: 'MainPage_Bags_Of_Litter_Removed_This_Year',   // The unique key for this field
+      title: 'Main Page Bags Of Litter Removed This Year',
       type: 'number',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
-     defineField({
-      name: 'MainPage_Hours_of_Work',   // The unique key for this field
-      title: 'Main Page Hours of Work',
+      defineField({
+      name: 'MainPage_Bags_Of_Litter_Removed_Last_Year',   // The unique key for this field
+      title: 'Main Page Bags Of Litter Removed Last Year',
       type: 'number',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
-     defineField({
-      name: 'MainPage_Active_Volunteers',   // The unique key for this field
-      title: 'Main Page Active Volunteers',
+    defineField({
+      name: 'MainPage_Hours_of_Work_This_Year',   // The unique key for this field
+      title: 'Main Page Hours of Work This Year',
+      type: 'number',
+      validation: (Rule) => Rule.required(), // Makes this field mandatory
+    }),
+      defineField({
+      name: 'MainPage_Hours_of_Work_Last_Year',   // The unique key for this field
+      title: 'Main Page Hours of Work Last Year',
+      type: 'number',
+      validation: (Rule) => Rule.required(), // Makes this field mandatory
+    }),
+    defineField({
+      name: 'MainPage_Active_Volunteers_This_Year',   // The unique key for this field
+      title: 'Main Page Active Volunteers This Years',
+      type: 'number',
+      validation: (Rule) => Rule.required(), // Makes this field mandatory
+    }),
+    defineField({
+      name: 'MainPage_Active_Volunteers_Last_Year',   // The unique key for this field
+      title: 'Main Page Active Volunteers Last Year',
       type: 'number',
       validation: (Rule) => Rule.required(), // Makes this field mandatory
     }),
